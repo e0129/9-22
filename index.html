@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>주호빵</title>
+	<style type="text/css">
+		#pearl{width: 800px; height: 480px; padding-left: 400px;padding-top: 200px;}
+		#mybody{background-color: pink;}
+
+		
+		#b{width: 100px; height: 80px; border-radius: 50px; ; position: absolute; left: 400px; animation: a 2s infinite;}
+		#c{width: 100px; height: 80px; border-radius: 50px;  position: absolute; left: 200px; animation: b 2s infinite;}
+		#d{width: 100px; height: 80px; border-radius: 50px;  position: absolute; left: 1200px; animation: c 2s infinite;}
+		#e{width: 100px; height: 80px; border-radius: 50px;  position: absolute; left: 600px; animation: d 2s infinite;}
+		#f{width: 100px; height: 80px; border-radius: 50px;  position: absolute; left: 800px; animation: e 2s infinite;}
+		#g{width: 100px; height: 80px; border-radius: 50px;  position: absolute; left: 1400px ;animation: f 2s infinite;}
+
+		@keyframes a {
+			from {top: 100px;}
+  			to {bottom: 1200px;}}
+  		@keyframes b {
+			from {top: 600px;}
+  			to {bottom: 1200px;}}
+  		@keyframes c {
+			from {top: 200px;}
+  			to {bottom: 1200px;}}
+  		@keyframes d {
+			from {top: 1200px;}
+  			to {bottom: 1200px;}}
+  		@keyframes e {
+			from {top: 800px;}
+  			to {bottom: 1200px;}}
+  		@keyframes f {
+			from {top: 700px;}
+  			to {bottom: 1200px;}}
+
+	</style>
+</head>
+<body id="mybody">
+	<img src="bbang.png" id="b">
+	<img src="bbang.png" id="c">
+	<img src="bbang.png" id="d">
+	<img src="bbang.png" id="e">
+	<img src="bbang.png" id="f">
+	<img src="bbang.png" id="g">
+	<img src="jupearl.png" id="pearl">
+	<audio id="esound">
+  		<source src="granfa.mp3" type="audio/mp3">
+  	</audio>
+
+	<script type="text/javascript">
+		pearl.onclick = function(){
+			pearl.src = "hobbang.png";
+			esound.play();	}
+
+	//font-size >>> fontSize
+	//margin-top >>> marginTop
+	//padding-bottom >>> paddingBottom
+
+	</script>
+</body>
+</html>
